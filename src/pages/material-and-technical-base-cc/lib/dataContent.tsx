@@ -1,90 +1,105 @@
 import {Images} from "@/components/images"
-import {Img} from "@/components/img"
-import {SectionImg} from "@/components/section-img"
 
-//211
+//101
 import img_101_1 from "@/assets/material-base/101/1.jpg"
 import img_101_2 from "@/assets/material-base/101/2.jpg"
 import img_101_3 from "@/assets/material-base/101/3.jpg"
 import img_101_4 from "@/assets/material-base/101/4.jpg"
+//102
+import img_102_1 from "@/assets/material-base/102/1.jpg"
+import img_102_2 from "@/assets/material-base/102/1.jpg"
+//104
+import img_104_1 from "@/assets/material-base/104/1.jpg"
+import img_104_2 from "@/assets/material-base/104/2.jpg"
+import img_104_3 from "@/assets/material-base/104/3.jpg"
+import img_104_4 from "@/assets/material-base/104/4.jpg"
+//219
+import img_219_1 from "@/assets/material-base/219/1.jpg"
+import img_219_2 from "@/assets/material-base/219/2.jpg"
+import img_219_3 from "@/assets/material-base/219/3.jpg"
+//220
+import img_220_1 from "@/assets/material-base/220/1.jpg"
+import img_220_2 from "@/assets/material-base/220/2.jpg"
+import img_220_3 from "@/assets/material-base/220/3.jpg"
+//303
+import img_303_1 from "@/assets/material-base/303/1.jpg"
+import img_303_2 from "@/assets/material-base/303/2.jpg"
+//314
+import img_314_1 from "@/assets/material-base/314/1.jpg"
+import img_314_2 from "@/assets/material-base/314/2.jpg"
+import img_314_3 from "@/assets/material-base/314/3.jpg"
+//316
+import img_316_1 from "@/assets/material-base/316/1.jpg"
+import img_316_2 from "@/assets/material-base/316/2.jpg"
+import img_316_3 from "@/assets/material-base/316/3.jpg"
 
 export const dataContent = [
   {
     title:
-      "Матеріально-технічна база циклової комісії комп’ютерних наук складається з наступних аудиторій:",
+      "№ 101. Лабораторія технологій створення програмних продуктів та тестування програмних систем і комплексів.",
     content: (
       <>
-        <ul>
-          <li>
-            №101. Лабораторія об’єктно-орієнтованого програмування. Тестування
-            програмних систем і комплексів. Технологій створення програмних
-            продуктів.
-            <Images images={[img_101_1, img_101_2, img_101_3, img_101_4]} />
-          </li>
-          <li>
-            №102. Лабораторія програмування інформаційних систем. Архітектури
-            обчислювальних систем.
-          </li>
-        </ul>
+        <Images images={[img_101_1, img_101_2, img_101_3, img_101_4]} />
       </>
     ),
   },
   {
-    title: "Аудиторія №101",
+    title:
+      "№ 102. Кабінет алгоритмізації та програмування інформаційних систем.",
     content: (
       <>
-        <p>Апаратне забезпечення аудиторії №101:</p>
-        <ul>
-          <li>
-            14 студентських ПК + 1 викладацький ПК(AMD Ryzen 3 3200G, 16 Gb
-            RAM);
-          </li>
-          <li>2 телевізора Hoffson 43” A43FHD200T2;</li>
-          <li>мультимедійна сенсорна дошка INTBOARD GT65;</li>
-          <li>вебкамера A4tech;</li>
-          <li>WIFI-роутер;</li>
-          <li>інтелектуальний комутатор Cisco;</li>
-          <li>2 цифрові камери відеоспостереження.</li>
-        </ul>
-        <p>Програмне забезпечення аудиторії №101:</p>
-        <ul>
-          <li>Windows 10 Pro;</li>
-          <li>IntelliJ IDEA Ultimate;</li>
-          <li>Qt Creator Community;</li>
-          <li>Visual Studio Community;</li>
-          <li>WebStorm;</li>
-          <li>Git / Github;</li>
-          <li>Postman / Insomnia;</li>
-          <li>PostgreSQL / MySQL / MariaDB, MongoDB, SQLiteStudio;</li>
-          <li>Jira / MantisBT / Trello;</li>
-          <li>Zoom / Google Meet / Discord;</li>
-          <li>LibreOffice / Foxit Reader;</li>
-          <li>Total Commander.</li>
-        </ul>
+        <Images images={[img_102_1, img_102_2]} />
       </>
     ),
   },
   {
-    title: "Аудиторія №101",
+    title:
+      "№ 104. Лабораторія організації баз даних та дипломного проектування.",
     content: (
       <>
-        <p>Апаратне забезпечення аудиторії №102:</p>
-        <ul>
-          <li>14 студентських ПК + 1 викладацький;</li>
-          <li>телевізор Vinga 32”.</li>
-        </ul>
-        <p>Програмне забезпечення аудиторії №102:</p>
-        <ul>
-          <li>ОС Windows 7/10;</li>
-          <li>Visual Studio Community;</li>
-          <li>Dev-Cpp;</li>
-          <li>WebStorm;</li>
-          <li>Git / Github;</li>
-          <li>MySQL, MongoDB;</li>
-          <li>Zoom / Google Meet;</li>
-          <li>LibreOffice / Foxit Reader;</li>
-          <li>Total Commander.</li>
-        </ul>
+        <Images images={[img_104_1, img_104_2, img_104_3, img_104_4]} />
+      </>
+    ),
+  },
+  {
+    title: "№ 219. Лабораторія мікропроцесорних систем та ІоТ.",
+    content: (
+      <>
+        <Images images={[img_219_1, img_219_2, img_219_3]} />
+      </>
+    ),
+  },
+  {
+    title:
+      "№ 220. Кабінет архітектури комп’ютерів, надійності, діагностики та експлуатації комп'ютерних систем.",
+    content: (
+      <>
+        <Images images={[img_220_1, img_220_2, img_220_3]} />
+      </>
+    ),
+  },
+  {
+    title: "№ 314. Кабінет комп’ютерних мереж, Інтернет та хмарних технологій.",
+    content: (
+      <>
+        <Images images={[img_314_1, img_314_2, img_314_3]} />
+      </>
+    ),
+  },
+  {
+    title:
+      "№ 303. Кабінет-лабораторія англійської мови за професійним спрямуванням.",
+    content: (
+      <>
+        <Images images={[img_303_1, img_303_2]} />
+      </>
+    ),
+  },
+  {
+    title: "№ 316. Кабінет мікросхемотехніки та основ програмної інженерії.",
+    content: (
+      <>
+        <Images images={[img_316_1, img_316_2, img_316_3]} />
       </>
     ),
   },
