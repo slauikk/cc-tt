@@ -27,7 +27,7 @@ Array(dataSponsorsSource.length)
   .map(() => (dataSponsors = [...dataSponsors, []]))
 
 dataSponsorsSource.map((e, i) => {
-  e.map((el, idx) => {
+  e.map((el) => {
     const elem = <SlideItem {...el} />
     dataSponsors[i] = [...dataSponsors[i], elem]
   })
@@ -48,7 +48,7 @@ Array(dataSponsorsSourceMagnis.length)
   .map(() => (dataSponsorsMagnis = [...dataSponsorsMagnis, []]))
 
 dataSponsorsSourceMagnis.map((e, i) => {
-  e.map((el, idx) => {
+  e.map((el) => {
     const elem = <SlideItem {...el} />
     dataSponsorsMagnis[i] = [...dataSponsorsMagnis[i], elem]
   })
@@ -65,7 +65,7 @@ Array(dataSponsorsSourceEleks.length)
   .map(() => (dataSponsorsEleks = [...dataSponsorsEleks, []]))
 
 dataSponsorsSourceEleks.map((e, i) => {
-  e.map((el, idx) => {
+  e.map((el) => {
     const elem = <SlideItem {...el} />
     dataSponsorsEleks[i] = [...dataSponsorsEleks[i], elem]
   })
@@ -86,7 +86,7 @@ Array(dataSponsorsSourceHourOfCode.length)
   .map(() => (dataSponsorsHourOfCode = [...dataSponsorsHourOfCode, []]))
 
 dataSponsorsSourceHourOfCode.map((e, i) => {
-  e.map((el, idx) => {
+  e.map((el) => {
     const elem = <SlideItem {...el} />
     dataSponsorsHourOfCode[i] = [...dataSponsorsHourOfCode[i], elem]
   })
@@ -108,7 +108,7 @@ Array(dataSponsorsSourceElogic.length)
   .map(() => (dataSponsorsElogic = [...dataSponsorsElogic, []]))
 
 dataSponsorsSourceElogic.map((e, i) => {
-  e.map((el, idx) => {
+  e.map((el) => {
     const elem = <SlideItem {...el} />
     dataSponsorsElogic[i] = [...dataSponsorsElogic[i], elem]
   })
