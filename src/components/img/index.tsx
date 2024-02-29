@@ -20,12 +20,13 @@ export const Img: FC<IImg> = ({
 }) => {
   return (
     <img
-      className={clsx(styles.Img, styles[type], styles[size])}
+      className={clsx(
+        styles.Img,
+        styles[type],
+        styles[size],
+        styles[`float-${float}`],
+      )}
       src={src}
-      style={{
-        float: float,
-        ...style,
-      }}
       alt=""
     />
   )

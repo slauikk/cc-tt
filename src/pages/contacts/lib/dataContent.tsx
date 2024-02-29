@@ -4,6 +4,7 @@ import fake from "@/assets/fake_teacher.jpg"
 import Img_6 from "@/assets/people/Lisovyi.jpg"
 import Img_7 from "@/assets/people/dilay.jpg"
 import Img_8 from "@/assets/people/lapandra.png"
+import Img_9 from "@/assets/people/serbin.png"
 import Img_1 from "@/assets/people/Марціяш.jpg"
 import Img_2 from "@/assets/people/Радчик.jpg"
 import Img_3 from "@/assets/people/Слободян.jpg"
@@ -49,7 +50,7 @@ export const dataContacts: IContact[] = [
   },
   {
     name: "Сербін Володимир",
-    img: fake,
+    img: Img_9,
     info: ["E-mail: celludenberg@gmail.com"],
   },
 ]

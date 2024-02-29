@@ -1,0 +1,28 @@
+.SliderLine {
+  display: flex;
+  gap: get-d(30px);
+
+  &.row {
+    height: fit-content;
+
+    .SliderLine_photo {
+      height: 100%;
+      width: auto;
+    }
+
+    &.to-left {
+      justify-content: flex-end;
+    }
+  }
+
+  &.col {
+    flex-direction: column;
+    flex: 1 0 0;
+
+    .SliderLine_photo {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+}

@@ -42,6 +42,7 @@ export const Home: FC<IHome> = () => {
               <div className={clsx(styles.home_section_title)}>
                 <div className={clsx(styles.home_section_title_inner)}>
                   Чим перспективне навчання у нашому коледжі за спеціальністю
+                  <br />
                   122 Комп’ютерні науки
                 </div>
               </div>

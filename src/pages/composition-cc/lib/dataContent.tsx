@@ -1,6 +1,9 @@
 import {Img} from "@/components/img"
 
 import img_6 from "@/assets/people/Lisovyi.jpg"
+import img_9 from "@/assets/people/dilay.jpg"
+import img_7 from "@/assets/people/lapandra.png"
+import img_8 from "@/assets/people/serbin.png"
 import img_1 from "@/assets/people/Марціяш.jpg"
 import img_2 from "@/assets/people/Радчик.jpg"
 import img_3 from "@/assets/people/Слободян.jpg"
@@ -20,7 +23,7 @@ export const dataContent = [
           <li>Лісовий Володимир Миколайович</li>
           <li>Ділай Роман Володимирович</li>
           <li>Ляпандра Андрій Степанович</li>
-          <li>Сербін Володимир</li>
+          <li>Сербін Володимир Сергійович</li>
         </ul>
       </>
     ),
@@ -130,6 +133,7 @@ export const dataContent = [
     title: "Ділай Роман Володимирович",
     content: (
       <>
+        <Img src={img_9} float="right" />
         <p>
           <b>Освіта:</b>
           <ul>
@@ -150,6 +154,52 @@ export const dataContent = [
         </p>
         <p>
           <b>Категорія, звання:</b> спеціаліст вищої категорії.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Ляпандра Андрій Степанович",
+    content: (
+      <>
+        <Img src={img_7} float="right" />
+        <p>
+          <b>Освіта:</b>
+          <ul>
+            <li>
+              Тернопільський приладобудівний інститут імені І.Пулюя, 1996 р.,
+              “Приладобудування”, спеціаліст інженер-механік;
+            </li>
+            <li>
+              Національний університет “Львівська політехніка”, 2010 р., к.т.н.
+              зі спеціальності “Біологічні та медичні прилади і системи” к.т.н.,
+              доцент Посада:
+            </li>
+          </ul>
+        </p>
+        <p>
+          <b>Посада:</b> Викладач комп’ютерних дисциплін
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Сербін Володимир Сергійович",
+    content: (
+      <>
+        <Img src={img_8} float="right" />
+        <p>
+          <b>Освіта:</b>
+          <ul>
+            <li>
+              Тернопільський національний технічний університет ім. Івана Пулюя,
+              2023 р., “Інформаційні системи та технології”, магістр в галузі
+              інформаційних технологій
+            </li>
+          </ul>
+        </p>
+        <p>
+          <b>Посада:</b> Викладач комп’ютерних дисциплін
         </p>
       </>
     ),
