@@ -53,6 +53,10 @@ export const dataHeader = [
         path: "/syllabuses",
       },
       {
+        title: "Дисципліни за вибором здобувача освіти",
+        path: "/syllabuses-choice",
+      },
+      {
         title: "Методичні рекомендації до КР",
         path: "/methodological-recommendations-for-KP",
       },

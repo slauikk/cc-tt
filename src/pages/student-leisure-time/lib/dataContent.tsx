@@ -1,11 +1,12 @@
 import {Slider} from "@/components/Slider"
 
 import {
-  dataSponsors,
-  dataSponsorsEleks,
-  dataSponsorsElogic,
-  dataSponsorsHourOfCode,
-  dataSponsorsMagnis,
+  dataSponsors_1,
+  dataSponsors_2,
+  dataSponsors_3,
+  dataSponsors_4,
+  dataSponsors_5,
+  dataSponsors_6,
 } from "../data/dataSlider"
 
 export const dataContent = [
@@ -49,43 +50,49 @@ export const dataContent = [
   },
 
   {
-    title: "Файне ІТ",
+    title: "Художня самодіяльність",
     content: (
       <>
-        <Slider items={dataSponsors} type="row" />
-      </>
-    ),
-  },
-
-  {
-    title: "Екскурсія в ІТ-компанію Magnis",
-    content: (
-      <>
-        <Slider items={dataSponsorsMagnis} type="row" />
+        <Slider items={dataSponsors_1} type="row" />
       </>
     ),
   },
   {
-    title: "Зустріч з представниками  ІТ-компанії ELEKS",
+    title: "Клуб фінансової грамотності",
     content: (
       <>
-        <Slider items={dataSponsorsEleks} type="row" />
+        <Slider items={dataSponsors_2} type="row" />
       </>
     ),
   },
   {
-    title: "Година коду з ІТ-Кластером Тернополя",
+    title: "День соборності",
     content: (
       <>
-        <Slider items={dataSponsorsHourOfCode} type="row" />
+        <Slider items={dataSponsors_3} type="row" />
       </>
     ),
   },
   {
-    title: "Зустріч з представниками  ІТ-компанії ELOGIC",
+    title: "Година КОДУ",
     content: (
       <>
-        <Slider items={dataSponsorsElogic} type="row" />
+        <Slider items={dataSponsors_4} type="row" />
+      </>
+    ),
+  },
+  {
+    title: "Дебют 2- курсника",
+    content: (
+      <>
+        <Slider items={dataSponsors_5} type="row" />
+      </>
+    ),
+  },
+  {
+    content: (
+      <>
+        <Slider items={dataSponsors_6} type="row" />
       </>
     ),
   },

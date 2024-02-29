@@ -6,8 +6,10 @@ import img_101_2 from "@/assets/material-base/101/2.jpg"
 import img_101_3 from "@/assets/material-base/101/3.jpg"
 import img_101_4 from "@/assets/material-base/101/4.jpg"
 //102
-import img_102_1 from "@/assets/material-base/102/1.jpg"
-import img_102_2 from "@/assets/material-base/102/1.jpg"
+import img_102_1 from "@/assets/material-base/102/1.png"
+import img_102_2 from "@/assets/material-base/102/2.png"
+import img_102_3 from "@/assets/material-base/102/3.png"
+import img_102_4 from "@/assets/material-base/102/4.png"
 //104
 import img_104_1 from "@/assets/material-base/104/1.jpg"
 import img_104_2 from "@/assets/material-base/104/2.jpg"
@@ -48,7 +50,7 @@ export const dataContent = [
       "№ 102. Кабінет алгоритмізації та програмування інформаційних систем.",
     content: (
       <>
-        <Images images={[img_102_1, img_102_2]} />
+        <Images images={[img_102_1, img_102_2, img_102_3, img_102_4]} />
       </>
     ),
   },

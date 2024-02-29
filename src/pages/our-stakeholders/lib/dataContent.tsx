@@ -1,3 +1,13 @@
+import {Slider} from "@/components/Slider"
+
+import {
+  dataSponsors,
+  dataSponsorsEleks,
+  dataSponsorsElogic,
+  dataSponsorsHourOfCode,
+  dataSponsorsMagnis,
+} from "../data/dataSlider"
+
 export const dataContent = [
   {
     content: (
@@ -60,6 +70,47 @@ export const dataContent = [
             середовищі провідної компанії.
           </li>
         </ul>
+      </>
+    ),
+  },
+  {
+    title: "Файне ІТ",
+    content: (
+      <>
+        <Slider items={dataSponsors} type="row" />
+      </>
+    ),
+  },
+
+  {
+    title: "Екскурсія в ІТ-компанію Magnis",
+    content: (
+      <>
+        <Slider items={dataSponsorsMagnis} type="row" />
+      </>
+    ),
+  },
+  {
+    title: "Зустріч з представниками  ІТ-компанії ELEKS",
+    content: (
+      <>
+        <Slider items={dataSponsorsEleks} type="row" />
+      </>
+    ),
+  },
+  {
+    title: "Година коду з ІТ-Кластером Тернополя",
+    content: (
+      <>
+        <Slider items={dataSponsorsHourOfCode} type="row" />
+      </>
+    ),
+  },
+  {
+    title: "Зустріч з представниками  ІТ-компанії ELOGIC",
+    content: (
+      <>
+        <Slider items={dataSponsorsElogic} type="row" />
       </>
     ),
   },
