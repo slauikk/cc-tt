@@ -11,13 +11,7 @@ interface IImg {
   style?: {[key: string]: any}
 }
 
-export const Img: FC<IImg> = ({
-  type = "h",
-  src,
-  size = "",
-  float = "none",
-  style,
-}) => {
+export const Img: FC<IImg> = ({type = "h", src, size = "", float = "none"}) => {
   return (
     <img
       className={clsx(
