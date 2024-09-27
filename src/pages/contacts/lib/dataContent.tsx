@@ -1,56 +1,50 @@
 import {IContact} from "@/types/contacts.interface"
 
-import fake from "@/assets/fake_teacher.jpg"
-import Img_6 from "@/assets/people/Lisovyi.jpg"
-import Img_7 from "@/assets/people/dilay.jpg"
-import Img_8 from "@/assets/people/lapandra.png"
-import Img_9 from "@/assets/people/serbin.png"
-import Img_1 from "@/assets/people/Марціяш.jpg"
-import Img_2 from "@/assets/people/Радчик.jpg"
-import Img_3 from "@/assets/people/Слободян.jpg"
-import Img_5 from "@/assets/people/Цимбалюк.jpg"
+import Img_1 from "@/assets/people/Валилишин.png"
+import Img_2 from "@/assets/people/Приймак.jpg"
+import Img_3 from "@/assets/people/Савчук.jpg"
+import Img_4 from "@/assets/people/Задорожній.png"
+import Img_5 from "@/assets/people/Федечко.png"
+import Img_6 from "@/assets/people/Штогрин.png"
+import Img_7 from "@/assets/people/Березіцький.png"
+
 
 export const dataContent = [{}]
 
 export const dataContacts: IContact[] = [
   {
-    name: "Марціяш Галина Ярославівна",
+    name: "Василишин Ольга Зіновіївна",
     img: Img_1,
-    info: ["тел. +38 (0352) 28-18-11", "E-mail: cs@tk.te.ua"],
+    info: ["потім буде"],
   },
   {
-    name: "Радчик Галина Іванівна",
+    name: "Приймак Віктор Адамович",
     img: Img_2,
-    info: ["E-mail: halynarad@ukr.net"],
+    info: ["потім буде"],
   },
   {
-    name: "Слободян Руслан Олесійович",
+    name: "Савчук Михайло Петрович",
     img: Img_3,
-    info: ["E-mail: ruslan@tk.te.ua"],
+    info: ["потім буде"],
   },
   {
-    name: "Ділай Роман Володимирович",
-    img: Img_7,
-    info: ["E-mail: ca@tk.te.ua"],
+    name: "Задорожний Віктор Юліанович",
+    img: Img_4,
+    info: ["потім буде"],
   },
   {
-    name: "Цимбалюк Людмила Володимирівна",
+    name: "Федечко Віталій Мар’янович",
     img: Img_5,
-    info: ["E-mail: lusadz@gmail.com"],
+    info: ["потім буде"],
   },
   {
-    name: "Лісовий Володимир Миколайович",
+    name: "Штогрин Павло Ігорович",
     img: Img_6,
-    info: ["E-mail: lv21@i.ua"],
+    info: ["потім буде"],
   },
   {
-    name: "Ляпандра Андрій Степанович",
-    img: Img_8,
-    info: ["E-mail: lyapandra.andriy.s@gmail.com"],
-  },
-  {
-    name: "Сербін Володимир",
-    img: Img_9,
-    info: ["E-mail: celludenberg@gmail.com"],
+    name: "Березіцький Іван Володимирович",
+    img: Img_7,
+    info: ["потім буде"],
   },
 ]
