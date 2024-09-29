@@ -1,12 +1,11 @@
 import {IContact} from "@/types/contacts.interface"
 
-import Img_1 from "@/assets/people/Валилишин.png"
-import Img_2 from "@/assets/people/Приймак.jpg"
-import Img_3 from "@/assets/people/Савчук.jpg"
-import Img_4 from "@/assets/people/Задорожній.png"
-import Img_5 from "@/assets/people/Федечко.png"
-import Img_6 from "@/assets/people/Штогрин.png"
-import Img_7 from "@/assets/people/Березіцький.png"
+import Img_1 from "@/assets/people/калушка1.png"
+import Img_2 from "@/assets/people/фігурка.jpg"
+import Img_3 from "@/assets/people/лотоцька.png"
+import Img_4 from "@/assets/people/лиса.png"
+import Img_5 from "@/assets/people/іванунь.png"
+
 
 
 export const dataContent = [{}]
@@ -36,15 +35,5 @@ export const dataContacts: IContact[] = [
     name: "Федечко Віталій Мар’янович",
     img: Img_5,
     info: ["потім буде"],
-  },
-  {
-    name: "Штогрин Павло Ігорович",
-    img: Img_6,
-    info: ["потім буде"],
-  },
-  {
-    name: "Березіцький Іван Володимирович",
-    img: Img_7,
-    info: ["потім буде"],
-  },
+  }
 ]

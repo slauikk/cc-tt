@@ -84,7 +84,7 @@ export const Header: FC<IHeader> = () => {
           className={clsx(styles.header_logo, styles.header_nav_item)}
           to="/"
         >
-          ЦК телекомунікацій та радіотехніки
+          ЦК транспортних технологій
         </Link>
         <div
           className={clsx(styles.header_burger)}

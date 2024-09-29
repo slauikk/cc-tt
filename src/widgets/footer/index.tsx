@@ -68,7 +68,7 @@ export const Footer: FC<IFooter> = () => {
               </div>
             </div>
             <div className={clsx(styles.footer_header_info_item)}>
-              Циклова комісія телекомунікацій та радіотехніки
+              Циклова комісія транспортних технологій
             </div>
           </div>
           <div
@@ -127,7 +127,7 @@ export const Footer: FC<IFooter> = () => {
                   className={clsx(styles.footer_header_contacts_item_icon)}
                 />
                 <div className={clsx(styles.footer_header_contacts_item_title)}>
-                  tr@tk.te.ua
+                  transport.tt275@ukr.net
                 </div>
               </div>
             </div>
