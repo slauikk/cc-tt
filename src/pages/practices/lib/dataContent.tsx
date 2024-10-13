@@ -2,30 +2,15 @@ export const dataContent = [
   {
     content: (
       <>
-        <ol>
+        <ul>
           <li>
             <a href="https://eguru1.tk.te.ua/course/view.php?id=748">
-              Слюсарно - механічна
+              Навчальна практика з вантажних перевезень
             </a>
           </li>
           <li>
             <a href="https://eguru1.tk.te.ua/course/view.php?id=750">
-              Електромонтажна практика
-            </a>
-          </li>
-          <li>
-            <a href="https://eguru1.tk.te.ua/course/view.php?id=751">
-              Практика на засобах вимірювальної техніки
-            </a>
-          </li>
-          <li>
-            <a href="https://eguru1.tk.te.ua/course/view.php?id=752">
-              Практика з використанням комп’ютерної та мікропроцесорної техніки
-            </a>
-          </li>
-          <li>
-            <a href="https://eguru1.tk.te.ua/course/view.php?id=754">
-              Практика для отримання робітничої професії
+              Навчальна практика з пасажирських перевезень
             </a>
           </li>
           <li>
@@ -38,7 +23,7 @@ export const dataContent = [
               Переддипломна практика
             </a>
           </li>
-        </ol>
+        </ul>
       </>
     ),
   },

@@ -1,108 +1,63 @@
 import {Images} from "@/components/images"
 
-//101
-import img_101_1 from "@/assets/material-base/101/1.jpg"
-import img_101_2 from "@/assets/material-base/101/2.jpg"
-import img_101_3 from "@/assets/material-base/101/3.jpg"
-import img_101_4 from "@/assets/material-base/101/4.jpg"
-//102
-import img_102_1 from "@/assets/material-base/102/1.png"
-import img_102_2 from "@/assets/material-base/102/2.png"
-import img_102_3 from "@/assets/material-base/102/3.png"
-import img_102_4 from "@/assets/material-base/102/4.png"
-//104
-import img_104_1 from "@/assets/material-base/104/1.jpg"
-import img_104_2 from "@/assets/material-base/104/2.jpg"
-import img_104_3 from "@/assets/material-base/104/3.jpg"
-import img_104_4 from "@/assets/material-base/104/4.jpg"
-//219
-import img_219_1 from "@/assets/material-base/219/1.jpg"
-import img_219_2 from "@/assets/material-base/219/2.jpg"
-import img_219_3 from "@/assets/material-base/219/3.jpg"
-//220
-import img_220_1 from "@/assets/material-base/220/1.jpg"
-import img_220_2 from "@/assets/material-base/220/2.jpg"
-import img_220_3 from "@/assets/material-base/220/3.jpg"
-//303
-import img_303_1 from "@/assets/material-base/303/1.jpg"
-import img_303_2 from "@/assets/material-base/303/2.jpg"
-//314
-import img_314_1 from "@/assets/material-base/314/1.jpg"
-import img_314_2 from "@/assets/material-base/314/2.jpg"
-import img_314_3 from "@/assets/material-base/314/3.jpg"
-//316
-import img_316_1 from "@/assets/material-base/316/1.jpg"
-import img_316_2 from "@/assets/material-base/316/2.jpg"
-import img_316_3 from "@/assets/material-base/316/3.jpg"
+//104v
+import img_104v_1 from "@/assets/material-base/104в/каб104в1.jpg"
+import img_104v_2 from "@/assets/material-base/104в/каб104в2.jpg"
+//306v
+import img_306v_1 from "@/assets/material-base/306в/каб306в.jpg"
+//202v
+import img_202v_1 from "@/assets/material-base/202в/каб202в.jpg"
+
 
 export const dataContent = [
   {
-    title:
-      "№ 101. Лабораторія технологій створення програмних продуктів та тестування програмних систем і комплексів.",
-    content: (
-      <>
-        <Images images={[img_101_1, img_101_2, img_101_3, img_101_4]} />
-      </>
-    ),
+    title: "Перелік кабінет в яких здійснюється підготовка фахових молодших бакалаврів по спеціальності 275 «Транспортні технології (на автомобільному транспорті)», закріплені за викладачами циклової комісії транспортних технологій.",
+
   },
   {
     title:
-      "№ 102. Кабінет алгоритмізації та програмування інформаційних систем.",
+      "Кабінет 104 в  - Автомобілів, спеціалізованого рухомого складу та технічної експлуатації автомобілів.",
     content: (
       <>
-        <Images images={[img_102_1, img_102_2, img_102_3, img_102_4]} />
+        <Images images={[img_104v_1, img_104v_2]} />
       </>
     ),
   },
   {
     title:
-      "№ 104. Лабораторія організації баз даних та дипломного проектування.",
+      "Кабінет 306 в - Організації і планування роботи підприємства.",
     content: (
       <>
-        <Images images={[img_104_1, img_104_2, img_104_3, img_104_4]} />
-      </>
-    ),
-  },
-  {
-    title: "№ 219. Лабораторія мікропроцесорних систем та ІоТ.",
-    content: (
-      <>
-        <Images images={[img_219_1, img_219_2, img_219_3]} />
+        <Images images={[img_306v_1]} />
       </>
     ),
   },
   {
     title:
-      "№ 220. Кабінет архітектури комп’ютерів, надійності, діагностики та експлуатації комп'ютерних систем.",
+      "Кабінет 202 в - Автомобільних перевезень",
     content: (
       <>
-        <Images images={[img_220_1, img_220_2, img_220_3]} />
+        <Images images={[img_202v_1]} />
       </>
     ),
   },
   {
-    title: "№ 314. Кабінет комп’ютерних мереж, Інтернет та хмарних технологій.",
+    title: "Кабінет 103 в - Автомобільних експлуатаційних матеріалів",
+
+  },
+  {
     content: (
       <>
-        <Images images={[img_314_1, img_314_2, img_314_3]} />
+        <p>В усіх кабінетах присутні стенди та методичні матеріали, які необхідні для підготовки фахівців в галузі транспортних технологій. В кабінетах 202в та 306в є комп’ютер, принтер. В 306в встановлено проектор.</p>
       </>
     ),
   },
   {
-    title:
-      "№ 303. Кабінет-лабораторія англійської мови за професійним спрямуванням.",
     content: (
       <>
-        <Images images={[img_303_1, img_303_2]} />
+      <p>Окрім вказаних використовуються кабінети і лабораторії, закріплені за цикловими комісіями, які також беруть участь у підготовці даних фахівців та  оснащені комп’ютерним обладнанням, відповідними стендами, тематичними плакатами, картами.
+      </p>
       </>
     ),
-  },
-  {
-    title: "№ 316. Кабінет мікросхемотехніки та основ програмної інженерії.",
-    content: (
-      <>
-        <Images images={[img_316_1, img_316_2, img_316_3]} />
-      </>
-    ),
-  },
+  }
 ]
