@@ -4,23 +4,23 @@ export const dataContent = [
       <>
         <ul>
           <li>
-            <a href="https://eguru1.tk.te.ua/course/view.php?id=748">
-              Навчальна практика з вантажних перевезень
+            <a href="https://eguru1.tk.te.ua/course/view.php?id=874 ">
+              Навчальна практика з організації вантажних перевезень
             </a>
           </li>
           <li>
-            <a href="https://eguru1.tk.te.ua/course/view.php?id=750">
-              Навчальна практика з пасажирських перевезень
+            <a href="https://eguru1.tk.te.ua/course/view.php?id=874 ">
+              Навчальна практика з організації пасажирських перевезень
             </a>
           </li>
           <li>
-            <a href="https://eguru1.tk.te.ua/course/view.php?id=755">
+            <a href="https://eguru1.tk.te.ua/course/view.php?id=874 ">
               Технологічна практика
             </a>
           </li>
           <li>
-            <a href="https://eguru1.tk.te.ua/course/view.php?id=756">
-              Переддипломна практика
+            <a href="https://eguru1.tk.te.ua/course/view.php?id=874 ">
+              Передатестаційна практика
             </a>
           </li>
         </ul>

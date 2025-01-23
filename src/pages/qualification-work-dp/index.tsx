@@ -17,18 +17,9 @@ export const QualificationWorkDp: FC<IQualificationWorkDp> = () => {
 
   return (
     <PageLayout title="Виконання кваліфікаційної роботи у вигляді дипломного проекту">
-      {googleSheet.loading && <PageItem content={<Loading />} />}
-      {googleSheet.data[0] && (
-        <PageItem
-          content={googleSheet.data.map((e, i) => (
-            <p key={i}>
-              <a target="_blank" href={e[1]}>
-                {e[0]}
-              </a>
-            </p>
-          ))}
-        />
-      )}
+      {dataContent.map((e, i) => (
+        <PageItem {...e} key={i} />
+      ))}
     </PageLayout>
   )
 }

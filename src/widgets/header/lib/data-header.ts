@@ -61,7 +61,7 @@ export const dataHeader = [
         path: "/methodological-recommendations-for-KP",
       },
       {
-        title: "Виконання кваліфікаційної роботи у вигнляді ДП",
+        title: "Виконання кваліфікаційної роботи у вигляді ДП",
         path: "/qualification-work-dp",
       },
       {

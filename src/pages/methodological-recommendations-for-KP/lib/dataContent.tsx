@@ -5,16 +5,22 @@ export const dataContent = [
         <ul>
           <li>
             <p>
-              <a href="https://eguru1.tk.te.ua/course/view.php?id=800">
-                Електроустаткування автомобілів
+              <a href="https://eguru1.tk.te.ua/course/view.php?id=874 ">
+                КП Організація автомобільних вантажних перевезень
               </a>
             </p>
           </li>
           <li>
             <p>
-              <a href="https://eguru1.tk.te.ua/course/view.php?id=614">
-                Технічне обслуговування та ремонт електроустаткування
-                автомобілів
+              <a href="https://eguru1.tk.te.ua/course/view.php?id=874 ">
+                КП Організація автомобільних пасажирських перевезень
+              </a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://eguru1.tk.te.ua/course/view.php?id=874 ">
+                КР Організація та планування роботи підприємства
               </a>
             </p>
           </li>

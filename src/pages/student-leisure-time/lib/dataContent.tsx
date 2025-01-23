@@ -1,14 +1,12 @@
 import {Slider} from "@/components/Slider"
-
+import {Images} from "@/components/images"
 import {
   dataSponsors_1,
   dataSponsors_2,
   dataSponsors_3,
-  dataSponsors_4,
-  dataSponsors_5,
-  dataSponsors_6,
 } from "../data/dataSlider"
-
+import img_1_1 from "@/assets/театр/1.jpg"
+import img_1_2 from "@/assets/театр/2.jpg"
 export const dataContent = [
   {
     content: (
@@ -37,20 +35,7 @@ export const dataContent = [
     ),
   },
   {
-    content: (
-      <>
-        <p>
-          Студенти групи КН-221 розвивають фінансову грамотність граючи гру
-          «Життєвий Капітал». Основна мета гри – покращити модель відносин з
-          грошовим потоком і керувати ним з метою створення сімейного капіталу.
-          За ігровим столом вирують справжні емоції!
-        </p>
-      </>
-    ),
-  },
-
-  {
-    title: "Художня самодіяльність",
+    title: "Туристично-екскурсійна поїздка",
     content: (
       <>
         <Slider items={dataSponsors_1} type="row" />
@@ -58,7 +43,15 @@ export const dataContent = [
     ),
   },
   {
-    title: "Клуб фінансової грамотності",
+    title: "Тернопільський академічний обласний український драматичний театр імені Т. Г. Шевченка",
+    content: (
+      <>
+        <Images images={[img_1_1, img_1_2]} />
+      </>
+    ),
+  },
+  {
+    title: "Екскурсійна поїздка в Київ",
     content: (
       <>
         <Slider items={dataSponsors_2} type="row" />
@@ -66,33 +59,13 @@ export const dataContent = [
     ),
   },
   {
-    title: "День соборності",
+    title: "Святкування Дня автомобіліста та дорожника",
     content: (
       <>
         <Slider items={dataSponsors_3} type="row" />
-      </>
-    ),
-  },
-  {
-    title: "Година КОДУ",
-    content: (
-      <>
-        <Slider items={dataSponsors_4} type="row" />
-      </>
-    ),
-  },
-  {
-    title: "Дебют 2- курсника",
-    content: (
-      <>
-        <Slider items={dataSponsors_5} type="row" />
-      </>
-    ),
-  },
-  {
-    content: (
-      <>
-        <Slider items={dataSponsors_6} type="row" />
+        <video controls width="600">
+          <source src="/assets/studentLeisure/day/video.mp4" type="video/mp4"/>
+        </video>
       </>
     ),
   },

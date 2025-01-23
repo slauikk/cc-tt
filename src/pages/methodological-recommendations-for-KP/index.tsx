@@ -17,18 +17,9 @@ export const MethodologicalKP: FC<IMethodologicalKP> = () => {
 
   return (
     <PageLayout title="Методичні рекомендації до КР">
-      {googleSheet.loading && <PageItem content={<Loading />} />}
-      {googleSheet.data[0] && (
-        <PageItem
-          content={googleSheet.data.map((e, i) => (
-            <p key={i}>
-              <a target="_blank" href={e[1]}>
-                {e[0]}
-              </a>
-            </p>
-          ))}
-        />
-      )}
+      {dataContent.map((e, i) => (
+        <PageItem {...e} key={i} />
+      ))}
     </PageLayout>
   )
 }
