@@ -27,13 +27,6 @@ export const ContactsSection: FC<IContacts> = ({data}) => {
                     className={clsx(styles.contacts_container_item)}
                     key={ind}
                   >
-                    {el.img && (
-                      <img
-                        className={clsx(styles.contacts_container_item_img)}
-                        src={el.img}
-                        alt=""
-                      />
-                    )}
                     <div className={clsx(styles.contacts_container_item_info)}>
                       <div
                         className={clsx(
@@ -45,7 +38,6 @@ export const ContactsSection: FC<IContacts> = ({data}) => {
                             styles.contacts_container_item_info_header_title,
                           )}
                         >
-                          {el.name}
                         </div>
 
                         <div
