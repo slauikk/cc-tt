@@ -59,5 +59,14 @@ export const dataContent = [
       </p>
       </>
     ),
-  }
+  },
+  {
+    content: (
+      <>
+        <p>
+          <a href="https://drive.google.com/drive/folders/18zU4mzXaLpIeYyMkFZ0zZwhRItxP8Lnw">Матеріально-технічне забезпечення</a>
+        </p>
+      </>
+    ),
+  },
 ]

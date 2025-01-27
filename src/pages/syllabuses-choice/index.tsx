@@ -8,6 +8,7 @@ import {PageLayout} from "../../layouts"
 
 import styles from "./index.module.scss"
 import {getFromGoogleSheets} from "@/utils/geFromGoogleSheets"
+import {dataContent} from "@/pages/syllabuses-choice/lib/dataContent.tsx"
 
 interface ISyllabusesChoice {}
 
@@ -18,19 +19,9 @@ export const SyllabusesChoice: FC<ISyllabusesChoice> = () => {
 
   return (
     <PageLayout title="Дисципліни за вибором здобувача освіти">
-      {googleSheet.loading && <PageItem content={<Loading />} />}
-      {googleSheet.data[0] && (
-        <PageItem
-          title="Дисципліни за вибором здобувача освіти"
-          content={googleSheet.data.map((e, i) => (
-            <p key={i}>
-              <a target="_blank" href={e[1]}>
-                {e[0]}
-              </a>
-            </p>
-          ))}
-        />
-      )}
+      {dataContent.map((e, i) => (
+        <PageItem {...e} key={i} />
+      ))}
     </PageLayout>
   )
 }

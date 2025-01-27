@@ -127,7 +127,7 @@ export const Footer: FC<IFooter> = () => {
                   className={clsx(styles.footer_header_contacts_item_icon)}
                 />
                 <div className={clsx(styles.footer_header_contacts_item_title)}>
-                  transport.tt275@ukr.net
+                  transportvsptfk@gmail.com
                 </div>
               </div>
             </div>

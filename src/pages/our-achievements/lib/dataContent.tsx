@@ -27,4 +27,13 @@ export const dataContent = [
       </>
     ),
   },
+  {
+    content: (
+      <>
+        <p>
+          <a href="https://drive.google.com/drive/folders/1HjFBp6Z_hRzwiNZP06VBv2GKcpi5c3Gg">Наукова, дослідна, інноваційна робота студентів</a>
+        </p>
+      </>
+    ),
+  },
 ]
