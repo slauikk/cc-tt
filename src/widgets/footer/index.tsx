@@ -85,7 +85,7 @@ export const Footer: FC<IFooter> = () => {
                   className={clsx(styles.footer_header_contacts_item_icon)}
                 />
                 <div className={clsx(styles.footer_header_contacts_item_title)}>
-                  м. Тернопіль, вул. Л. Курбаса, 13, ауд. №102
+                  м. Тернопіль, вул. Л. Курбаса, 13, ауд. №306в
                 </div>
               </div>
             </div>
