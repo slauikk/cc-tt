@@ -17,16 +17,16 @@ export const dataContent = [
               <a href="https://eguru1.tk.te.ua/course/view.php?id=373 "> Філософія</a>
             </li>
             <li>
-              <a href="https://eguru1.tk.te.ua/course/view.php?id=1218"> Іноземна мова (за професійним спрямуванням)
-                Гоголь</a>
+              <a href="https://eguru1.tk.te.ua/course/view.php?id=270"> Філософія</a>
             </li>
             <li>
-              <a href="https://eguru1.tk.te.ua/course/view.php?id=347">Іноземна мова (за професійним спрямуванням)
-                Фук </a>
+              <a href="https://eguru1.tk.te.ua/course/view.php?id=1218"> Іноземна мова (за професійним спрямуванням)</a>
             </li>
             <li>
-              <a href="https://eguru1.tk.te.ua/course/view.php?id=165">Іноземна мова (за професійним спрямуванням)
-                Олендер</a>
+              <a href="https://eguru1.tk.te.ua/course/view.php?id=347">Іноземна мова (за професійним спрямуванням)</a>
+            </li>
+            <li>
+              <a href="https://eguru1.tk.te.ua/course/view.php?id=165">Іноземна мова (за професійним спрямуванням)</a>
             </li>
             <li>
               <a href="https://eguru1.tk.te.ua/course/view.php?id=732"> Транспортна географія </a>
@@ -48,9 +48,6 @@ export const dataContent = [
               <a href="https://eguru1.tk.te.ua/course/view.php?id=1109"> Вища математика</a>
             </li>
             <li>
-              <a href="https://eguru1.tk.te.ua/course/view.php?id=1363 "> Основи екології та БЖД </a>
-            </li>
-            <li>
               <a href="https://eguru1.tk.te.ua/course/view.php?id=1145"> Інженерна та комп’ютерна графіка</a>
             </li>
             <li>
@@ -61,7 +58,7 @@ export const dataContent = [
               <a href="https://eguru1.tk.te.ua/course/view.php?id=1094"> Основи технічної механіки</a>
             </li>
             <li>
-              <a href="https://eguru1.tk.te.ua/course/view.php?id=1362"> Безпека життєдіяльності </a>
+              <a href="https://eguru1.tk.te.ua/course/view.php?id=1189"> Безпека життєдіяльності </a>
             </li>
             <li>
               <a href="https://eguru1.tk.te.ua/course/view.php?id=188"> Основи менеджменту та маркетингу</a>
@@ -160,6 +157,31 @@ export const dataContent = [
             </li>
             <li>
               <a href="https://eguru1.tk.te.ua/course/view.php?id=833 "> Автомобільні експлуатаційні матеріали</a>
+            </li>
+            <li>
+              <a href="https://eguru1.tk.te.ua/course/view.php?id=595 "> Основи екології та БЖД (Модуль1: Основи
+                екології)</a>
+            </li>
+            <li>
+              <a href="https://eguru1.tk.te.ua/course/view.php?id=1362"> Основи екології та БЖД (Модуль 2: Безпека
+                життєдіяльності)</a>
+            </li>
+            <li>
+              <a href="https://eguru1.tk.te.ua/course/view.php?id=516"> Етика корпоративного спілкування
+              </a>
+            </li>
+            <li>
+              <a href="https://eguru1.tk.te.ua/course/view.php?id=814"> Управління дорожньо-транспортною
+                інфраструктурою</a>
+            </li>
+            <li>
+              <a href="https://eguru1.tk.te.ua/course/view.php?id=579">Транспортний менеджмент </a>
+            </li>
+            <li>
+              <a href="https://eguru1.tk.te.ua/course/view.php?id=667"> Транспортно-складські комплекси</a>
+            </li>
+            <li>
+              <a href="https://eguru1.tk.te.ua/course/view.php?id=804"> Управління ланцюгами постачання</a>
             </li>
           </ul>
         </>
